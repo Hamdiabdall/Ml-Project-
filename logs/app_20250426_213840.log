@@ -1,0 +1,26 @@
+2025-04-26 21:38:40,093 - energy_consumption - INFO - Application starting
+2025-04-26 21:38:40,716 - energy_consumption - INFO - Entering event loop
+2025-04-26 21:38:49,436 - energy_consumption - INFO - Loading data from file: C:/Users/Hamdi/Desktop/ML PROJECT/consommation-quotidienne-brute.csv
+2025-04-26 21:38:49,437 - energy_consumption - INFO - Tentative de détection du séparateur du fichier CSV...
+2025-04-26 21:38:49,437 - energy_consumption - INFO - Séparateur détecté: ;
+2025-04-26 21:38:49,857 - energy_consumption - INFO - Colonnes trouvées dans le CSV: ['Date - Heure', 'Date', 'Heure', 'Consommation brute gaz (MW PCS 0°C) - GRTgaz', 'Statut - GRTgaz', 'Consommation brute gaz (MW PCS 0°C) - Teréga', 'Statut - Teréga', 'Consommation brute gaz totale (MW PCS 0°C)', 'Consommation brute électricité (MW) - RTE', 'Statut - RTE', 'Consommation brute totale (MW)', 'flag_ignore']
+2025-04-26 21:38:51,328 - energy_consumption - INFO - Filtered out rows with flag_ignore='oui'
+2025-04-26 21:38:51,330 - energy_consumption - INFO - DataFrame traité avec succès: 226488 lignes, colonnes: ['date', 'electricity_consumption', 'gas_consumption']
+2025-04-26 21:38:51,338 - energy_consumption - INFO - Plage de dates: 2011-12-31 23:00:00+00:00 à 2024-12-31 22:00:00+00:00
+2025-04-26 21:38:51,354 - energy_consumption - INFO - Data loaded successfully from file
+2025-04-26 21:39:16,033 - energy_consumption - INFO - Validated date range: 2011-12-01 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-26 21:39:18,062 - energy_consumption - INFO - Created line plot for electricity consumption
+2025-04-26 21:39:18,064 - energy_consumption - INFO - Validated date range: 2011-12-01 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-26 21:39:19,973 - energy_consumption - INFO - Created line plot for electricity consumption
+2025-04-26 21:39:22,257 - energy_consumption - INFO - Validated date range: 2011-12-01 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-26 21:39:22,305 - energy_consumption - INFO - Validated date range: 2011-12-01 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-26 21:39:22,330 - energy_consumption - INFO - Validated date range: 2011-12-01 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-26 21:39:28,654 - energy_consumption - INFO - Validated date range: 2011-12-01 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-26 21:39:29,855 - energy_consumption - INFO - Created line plot for gas consumption
+2025-04-26 21:39:29,857 - energy_consumption - INFO - Validated date range: 2011-12-01 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-26 21:39:30,888 - energy_consumption - INFO - Created line plot for gas consumption
+2025-04-26 21:39:41,497 - energy_consumption - INFO - Validated date range: 2011-12-01 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-26 21:39:42,730 - energy_consumption - INFO - Created line plot for gas consumption
+2025-04-26 21:39:48,968 - energy_consumption - INFO - Validated date range: 2011-12-01 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-26 21:39:50,071 - energy_consumption - INFO - Created line plot for gas consumption
+2025-04-26 21:39:50,514 - energy_consumption - INFO - Added degree 1 approximation to the plot

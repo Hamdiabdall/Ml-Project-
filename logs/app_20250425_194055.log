@@ -1,0 +1,6 @@
+2025-04-25 19:40:55,351 - energy_consumption - INFO - Application starting
+2025-04-25 19:40:55,812 - energy_consumption - INFO - Entering event loop
+2025-04-25 19:41:03,984 - energy_consumption - INFO - Loading data from file: C:/Users/Hamdi/Desktop/ML PROJECT/consommation-quotidienne-brute.csv
+2025-04-25 19:41:14,796 - energy_consumption - INFO - Data loaded successfully from file
+2025-04-25 19:41:24,993 - energy_consumption - ERROR - Error getting data for period: No electricity consumption data available
+2025-04-25 19:41:34,689 - energy_consumption - ERROR - Error getting data for period: No electricity consumption data available

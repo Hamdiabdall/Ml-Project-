@@ -1,0 +1,4 @@
+2025-04-26 15:50:04,278 - energy_consumption - INFO - Application starting
+2025-04-26 15:50:05,026 - energy_consumption - INFO - Entering event loop
+2025-04-26 15:50:49,793 - energy_consumption - INFO - Using default ODRE OpenData URL
+2025-04-26 15:50:49,793 - energy_consumption - INFO - Attempting to download data from: https://odre.opendatasoft.com/api/records/1.0/download/?dataset=consommation-quotidienne-brute&format=csv

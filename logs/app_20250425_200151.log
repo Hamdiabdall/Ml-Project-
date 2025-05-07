@@ -1,0 +1,25 @@
+2025-04-25 20:01:51,434 - energy_consumption - INFO - Application starting
+2025-04-25 20:01:51,706 - energy_consumption - INFO - Entering event loop
+2025-04-25 20:01:58,730 - energy_consumption - INFO - Attempting to download data from: https://drive.google.com/file/d/1y1aa_t4oLu1k9h1QhKkzJ7FwtSbnp7ca/view?usp=sharing
+2025-04-25 20:02:00,131 - energy_consumption - ERROR - Error parsing CSV file: ';' expected after '"'
+2025-04-25 20:02:00,132 - energy_consumption - ERROR - Error loading data from URL: Invalid file format: ';' expected after '"'
+2025-04-25 20:09:36,870 - energy_consumption - INFO - Loading data from file: C:/Users/Hamdi/Desktop/ML PROJECT/consommation-quotidienne-brute.csv
+2025-04-25 20:09:39,575 - energy_consumption - INFO - Filtered out 1464 rows with flag_ignore='oui'
+2025-04-25 20:09:39,597 - energy_consumption - INFO - Data loaded successfully from file
+2025-04-25 20:10:12,678 - energy_consumption - INFO - Validated date range: 2011-12-01 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-25 20:10:12,748 - energy_consumption - INFO - Validated date range: 2011-12-01 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-25 20:10:12,794 - energy_consumption - INFO - Validated date range: 2011-12-01 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-25 20:10:20,922 - energy_consumption - INFO - Validated date range: 2011-12-01 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-25 20:10:21,914 - energy_consumption - INFO - Created line plot for gas consumption
+2025-04-25 20:10:22,331 - energy_consumption - INFO - Added degree 1 approximation to the plot
+2025-04-25 20:18:47,459 - energy_consumption - INFO - Validated date range: 2011-12-01 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-25 20:18:49,314 - energy_consumption - INFO - Created line plot for electricity consumption
+2025-04-25 20:18:50,268 - energy_consumption - INFO - Added degree 1 approximation to the plot
+2025-04-25 20:18:50,269 - energy_consumption - INFO - Validated date range: 2011-12-01 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-25 20:18:52,131 - energy_consumption - INFO - Created line plot for electricity consumption
+2025-04-25 20:18:53,005 - energy_consumption - INFO - Added degree 1 approximation to the plot
+2025-04-25 20:18:54,922 - energy_consumption - INFO - Validated date range: 2011-12-01 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-25 20:18:54,955 - energy_consumption - INFO - Validated date range: 2011-12-01 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-25 20:18:54,974 - energy_consumption - INFO - Validated date range: 2011-12-01 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-25 20:18:58,385 - energy_consumption - INFO - Validated date range: 2011-12-01 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-25 20:21:59,659 - energy_consumption - INFO - Created bar plot for electricity consumption

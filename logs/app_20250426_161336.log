@@ -1,0 +1,36 @@
+2025-04-26 16:13:36,685 - energy_consumption - INFO - Application starting
+2025-04-26 16:13:37,179 - energy_consumption - INFO - Entering event loop
+2025-04-26 16:13:42,930 - energy_consumption - INFO - Attempting to download data from: https://odre.opendatasoft.com/explore/dataset/consommation-quotidienne-brute
+2025-04-26 16:13:42,931 - energy_consumption - INFO - Converting OpenData exploration URL to direct download URL
+2025-04-26 16:13:42,931 - energy_consumption - INFO - Using direct download URL: https://odre.opendatasoft.com/api/explore/v2.1/catalog/datasets/consommation-quotidienne-brute/exports/csv
+2025-04-26 16:13:42,933 - energy_consumption - INFO - Downloading data from https://odre.opendatasoft.com/api/explore/v2.1/catalog/datasets/consommation-quotidienne-brute/exports/csv...
+2025-04-26 16:13:44,742 - energy_consumption - INFO - Saving to temporary file: C:\Users\Hamdi\Desktop\ML PROJECT\temp\temp_csv.csv
+2025-04-26 16:15:35,761 - energy_consumption - INFO - Downloaded 20191.44 KB of data
+2025-04-26 16:15:35,762 - energy_consumption - INFO - Parsing downloaded CSV file...
+2025-04-26 16:15:35,762 - energy_consumption - INFO - Tentative de détection du séparateur du fichier CSV...
+2025-04-26 16:15:35,783 - energy_consumption - INFO - Séparateur détecté: ;
+2025-04-26 16:15:36,487 - energy_consumption - INFO - Colonnes trouvées dans le CSV: ['date_heure', 'date', 'heure', 'consommation_brute_gaz_grtgaz', 'statut_grtgaz', 'consommation_brute_gaz_terega', 'statut_terega', 'consommation_brute_gaz_totale', 'consommation_brute_electricite_rte', 'statut_rte', 'consommation_brute_totale', 'flag_ignore']
+2025-04-26 16:15:37,061 - energy_consumption - INFO - Filtered out rows with flag_ignore='oui'
+2025-04-26 16:15:37,062 - energy_consumption - INFO - DataFrame traité avec succès: 226488 lignes, colonnes: ['date', 'electricity_consumption', 'gas_consumption']
+2025-04-26 16:15:37,067 - energy_consumption - INFO - Plage de dates: 2011-12-31 23:00:00+00:00 à 2024-12-31 22:00:00+00:00
+2025-04-26 16:15:37,095 - energy_consumption - INFO - Successfully parsed CSV with 226488 rows and 3 columns
+2025-04-26 16:15:37,147 - energy_consumption - INFO - Saved a backup of the data to C:\Users\Hamdi\Desktop\ML PROJECT\ressources\exemples\odre_data_20250426_161537.csv
+2025-04-26 16:15:37,155 - energy_consumption - INFO - Data loaded successfully from URL
+2025-04-26 16:15:37,160 - energy_consumption - INFO - Plage de dates mise à jour: 2011-12-31 à 2024-12-31
+2025-04-26 16:16:08,726 - energy_consumption - INFO - Validated date range: 2011-12-31 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-26 16:16:08,750 - energy_consumption - INFO - Validated date range: 2011-12-31 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-26 16:16:08,763 - energy_consumption - INFO - Validated date range: 2011-12-31 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-26 16:16:20,903 - energy_consumption - INFO - Validated date range: 2011-12-31 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-26 16:16:20,917 - energy_consumption - INFO - Validated date range: 2011-12-31 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-26 16:16:20,935 - energy_consumption - INFO - Validated date range: 2011-12-31 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-26 16:16:51,440 - energy_consumption - INFO - Validated date range: 2011-12-31 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-26 16:16:52,617 - energy_consumption - INFO - Created line plot for gas consumption
+2025-04-26 16:17:00,074 - energy_consumption - INFO - Validated date range: 2019-12-31 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-26 16:17:00,089 - energy_consumption - INFO - Validated date range: 2019-12-31 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-26 16:17:00,106 - energy_consumption - INFO - Validated date range: 2019-12-31 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-26 16:17:04,283 - energy_consumption - INFO - Validated date range: 2019-12-31 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-26 16:17:04,794 - energy_consumption - INFO - Created line plot for gas consumption
+2025-04-26 16:17:08,020 - energy_consumption - INFO - Validated date range: 2019-12-31 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-26 16:17:52,304 - energy_consumption - INFO - Created bar plot for gas consumption
+2025-04-26 16:17:52,306 - energy_consumption - INFO - Validated date range: 2019-12-31 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-26 16:18:36,151 - energy_consumption - INFO - Created bar plot for gas consumption

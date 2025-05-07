@@ -1,0 +1,45 @@
+2025-04-26 21:40:30,278 - energy_consumption - INFO - Application starting
+2025-04-26 21:40:30,647 - energy_consumption - INFO - Entering event loop
+2025-04-26 21:40:37,128 - energy_consumption - INFO - Loading data from file: C:/Users/Hamdi/Desktop/ML PROJECT/consommation-quotidienne-brute.csv
+2025-04-26 21:40:37,129 - energy_consumption - INFO - Tentative de détection du séparateur du fichier CSV...
+2025-04-26 21:40:37,129 - energy_consumption - INFO - Séparateur détecté: ;
+2025-04-26 21:40:37,550 - energy_consumption - INFO - Colonnes trouvées dans le CSV: ['Date - Heure', 'Date', 'Heure', 'Consommation brute gaz (MW PCS 0°C) - GRTgaz', 'Statut - GRTgaz', 'Consommation brute gaz (MW PCS 0°C) - Teréga', 'Statut - Teréga', 'Consommation brute gaz totale (MW PCS 0°C)', 'Consommation brute électricité (MW) - RTE', 'Statut - RTE', 'Consommation brute totale (MW)', 'flag_ignore']
+2025-04-26 21:40:38,996 - energy_consumption - INFO - Filtered out rows with flag_ignore='oui'
+2025-04-26 21:40:38,997 - energy_consumption - INFO - DataFrame traité avec succès: 226488 lignes, colonnes: ['date', 'electricity_consumption', 'gas_consumption']
+2025-04-26 21:40:38,998 - energy_consumption - INFO - Plage de dates: 2011-12-31 23:00:00+00:00 à 2024-12-31 22:00:00+00:00
+2025-04-26 21:40:39,008 - energy_consumption - INFO - Data loaded successfully from file
+2025-04-26 21:40:45,415 - energy_consumption - INFO - Validated date range: 2024-12-01 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-26 21:40:45,422 - energy_consumption - INFO - Validated date range: 2024-12-01 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-26 21:40:45,439 - energy_consumption - INFO - Validated date range: 2024-12-01 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-26 21:40:59,949 - energy_consumption - INFO - Validated date range: 2024-12-01 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-26 21:41:00,124 - energy_consumption - INFO - Created line plot for gas consumption
+2025-04-26 21:41:00,182 - energy_consumption - INFO - Added degree 1 approximation to the plot
+2025-04-26 21:41:14,997 - energy_consumption - INFO - Validated date range: 2011-12-01 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-26 21:41:15,047 - energy_consumption - INFO - Validated date range: 2011-12-01 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-26 21:41:15,080 - energy_consumption - INFO - Validated date range: 2011-12-01 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-26 21:41:20,600 - energy_consumption - INFO - Validated date range: 2011-12-01 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-26 21:41:21,713 - energy_consumption - INFO - Created line plot for gas consumption
+2025-04-26 21:41:22,302 - energy_consumption - INFO - Added degree 1 approximation to the plot
+2025-04-26 21:41:40,875 - energy_consumption - INFO - Attempting to download data from: https://odre.opendatasoft.com/explore/dataset/consommation-quotidienne-brute
+2025-04-26 21:41:40,876 - energy_consumption - INFO - Converting OpenData exploration URL to direct download URL
+2025-04-26 21:41:40,876 - energy_consumption - INFO - Using direct download URL: https://odre.opendatasoft.com/api/explore/v2.1/catalog/datasets/consommation-quotidienne-brute/exports/csv
+2025-04-26 21:41:40,876 - energy_consumption - INFO - Downloading data from https://odre.opendatasoft.com/api/explore/v2.1/catalog/datasets/consommation-quotidienne-brute/exports/csv...
+2025-04-26 21:41:41,777 - energy_consumption - INFO - Saving to temporary file: C:\Users\Hamdi\Desktop\ML PROJECT\temp\temp_csv.csv
+2025-04-26 21:42:24,630 - energy_consumption - INFO - Downloaded 20191.44 KB of data
+2025-04-26 21:42:24,630 - energy_consumption - INFO - Parsing downloaded CSV file...
+2025-04-26 21:42:24,631 - energy_consumption - INFO - Tentative de détection du séparateur du fichier CSV...
+2025-04-26 21:42:24,660 - energy_consumption - INFO - Séparateur détecté: ;
+2025-04-26 21:42:25,133 - energy_consumption - INFO - Colonnes trouvées dans le CSV: ['date_heure', 'date', 'heure', 'consommation_brute_gaz_grtgaz', 'statut_grtgaz', 'consommation_brute_gaz_terega', 'statut_terega', 'consommation_brute_gaz_totale', 'consommation_brute_electricite_rte', 'statut_rte', 'consommation_brute_totale', 'flag_ignore']
+2025-04-26 21:42:25,484 - energy_consumption - INFO - Filtered out rows with flag_ignore='oui'
+2025-04-26 21:42:25,484 - energy_consumption - INFO - DataFrame traité avec succès: 226488 lignes, colonnes: ['date', 'electricity_consumption', 'gas_consumption']
+2025-04-26 21:42:25,487 - energy_consumption - INFO - Plage de dates: 2011-12-31 23:00:00+00:00 à 2024-12-31 22:00:00+00:00
+2025-04-26 21:42:25,496 - energy_consumption - INFO - Successfully parsed CSV with 226488 rows and 3 columns
+2025-04-26 21:42:25,525 - energy_consumption - INFO - Saved a backup of the data to C:\Users\Hamdi\Desktop\ML PROJECT\ressources\exemples\odre_data_20250426_214225.csv
+2025-04-26 21:42:25,530 - energy_consumption - INFO - Data loaded successfully from URL
+2025-04-26 21:42:25,547 - energy_consumption - INFO - Plage de dates mise à jour: 2011-12-31 à 2024-12-31
+2025-04-26 21:42:32,183 - energy_consumption - INFO - Validated date range: 2011-12-31 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-26 21:42:32,235 - energy_consumption - INFO - Validated date range: 2011-12-31 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-26 21:42:32,273 - energy_consumption - INFO - Validated date range: 2011-12-31 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-26 21:42:41,672 - energy_consumption - INFO - Validated date range: 2017-12-31 00:00:00+00:00 to 2024-12-31 23:59:59+00:00
+2025-04-26 21:42:42,367 - energy_consumption - INFO - Created line plot for gas consumption
+2025-04-26 21:42:42,694 - energy_consumption - INFO - Added degree 3 approximation to the plot

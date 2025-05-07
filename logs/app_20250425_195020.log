@@ -1,0 +1,8 @@
+2025-04-25 19:50:20,229 - energy_consumption - INFO - Application starting
+2025-04-25 19:50:20,512 - energy_consumption - INFO - Entering event loop
+2025-04-25 19:50:25,178 - energy_consumption - INFO - Loading data from file: C:/Users/Hamdi/Desktop/ML PROJECT/consommation-quotidienne-brute.csv
+2025-04-25 19:50:27,972 - energy_consumption - INFO - Filtered out 1464 rows with flag_ignore='oui'
+2025-04-25 19:50:27,999 - energy_consumption - INFO - Data loaded successfully from file
+2025-04-25 19:50:45,545 - energy_consumption - ERROR - Error calculating minimum: Invalid comparison between dtype=datetime64[ns, UTC] and Timestamp
+2025-04-25 19:50:45,553 - energy_consumption - ERROR - Error calculating maximum: Invalid comparison between dtype=datetime64[ns, UTC] and Timestamp
+2025-04-25 19:50:45,559 - energy_consumption - ERROR - Error calculating average: Invalid comparison between dtype=datetime64[ns, UTC] and Timestamp

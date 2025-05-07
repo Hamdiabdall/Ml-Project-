@@ -1,0 +1,25 @@
+2025-04-25 19:44:42,843 - energy_consumption - INFO - Application starting
+2025-04-25 19:44:43,101 - energy_consumption - INFO - Entering event loop
+2025-04-25 19:44:47,242 - energy_consumption - INFO - Loading data from file: C:/Users/Hamdi/Desktop/ML PROJECT/consommation-quotidienne-brute.csv
+2025-04-25 19:44:50,031 - energy_consumption - INFO - Data loaded successfully from file
+2025-04-25 19:45:31,172 - energy_consumption - ERROR - Error calculating minimum: Invalid comparison between dtype=datetime64[ns, UTC] and Timestamp
+2025-04-25 19:45:31,174 - energy_consumption - ERROR - Error calculating maximum: Invalid comparison between dtype=datetime64[ns, UTC] and Timestamp
+2025-04-25 19:45:31,177 - energy_consumption - ERROR - Error calculating average: Invalid comparison between dtype=datetime64[ns, UTC] and Timestamp
+2025-04-25 19:45:43,320 - energy_consumption - ERROR - Error getting data for period: Invalid comparison between dtype=datetime64[ns, UTC] and Timestamp
+2025-04-25 19:46:24,929 - energy_consumption - ERROR - Error calculating minimum: Invalid comparison between dtype=datetime64[ns, UTC] and Timestamp
+2025-04-25 19:46:24,933 - energy_consumption - ERROR - Error calculating maximum: Invalid comparison between dtype=datetime64[ns, UTC] and Timestamp
+2025-04-25 19:46:24,938 - energy_consumption - ERROR - Error calculating average: Invalid comparison between dtype=datetime64[ns, UTC] and Timestamp
+2025-04-25 19:46:26,257 - energy_consumption - ERROR - Error calculating minimum: Invalid comparison between dtype=datetime64[ns, UTC] and Timestamp
+2025-04-25 19:46:26,261 - energy_consumption - ERROR - Error calculating maximum: Invalid comparison between dtype=datetime64[ns, UTC] and Timestamp
+2025-04-25 19:46:26,266 - energy_consumption - ERROR - Error calculating average: Invalid comparison between dtype=datetime64[ns, UTC] and Timestamp
+2025-04-25 19:46:28,952 - energy_consumption - ERROR - Error getting data for period: Invalid comparison between dtype=datetime64[ns, UTC] and Timestamp
+2025-04-25 19:46:52,151 - energy_consumption - ERROR - Error getting data for period: Invalid comparison between dtype=datetime64[ns, UTC] and Timestamp
+2025-04-25 19:46:53,605 - energy_consumption - ERROR - Error getting data for period: Invalid comparison between dtype=datetime64[ns, UTC] and Timestamp
+2025-04-25 19:46:56,263 - energy_consumption - ERROR - Error getting data for period: Invalid comparison between dtype=datetime64[ns, UTC] and Timestamp
+2025-04-25 19:46:57,919 - energy_consumption - ERROR - Error getting data for period: Invalid comparison between dtype=datetime64[ns, UTC] and Timestamp
+2025-04-25 19:47:02,532 - energy_consumption - INFO - Loading data from file: C:/Users/Hamdi/Desktop/ML PROJECT/consommation-quotidienne-brute.csv
+2025-04-25 19:47:05,297 - energy_consumption - INFO - Data loaded successfully from file
+2025-04-25 19:47:56,601 - energy_consumption - ERROR - Error calculating minimum: Invalid comparison between dtype=datetime64[ns, UTC] and Timestamp
+2025-04-25 19:47:56,605 - energy_consumption - ERROR - Error calculating maximum: Invalid comparison between dtype=datetime64[ns, UTC] and Timestamp
+2025-04-25 19:47:56,609 - energy_consumption - ERROR - Error calculating average: Invalid comparison between dtype=datetime64[ns, UTC] and Timestamp
+2025-04-25 19:48:17,625 - energy_consumption - ERROR - Error getting data for period: Invalid comparison between dtype=datetime64[ns, UTC] and Timestamp

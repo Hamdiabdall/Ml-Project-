@@ -1,0 +1,13 @@
+2025-04-26 16:07:58,320 - energy_consumption - INFO - Application starting
+2025-04-26 16:07:58,719 - energy_consumption - INFO - Entering event loop
+2025-04-26 16:08:09,989 - energy_consumption - INFO - Attempting to download data from: https://odre.opendatasoft.com/explore/dataset/consommation-quotidienne-brute
+2025-04-26 16:08:09,989 - energy_consumption - INFO - Converting OpenData exploration URL to direct download URL
+2025-04-26 16:08:09,989 - energy_consumption - INFO - Using direct download URL: https://odre.opendatasoft.com/api/explore/v2.1/catalog/datasets/consommation-quotidienne-brute/exports/csv
+2025-04-26 16:08:09,990 - energy_consumption - INFO - Downloading data from https://odre.opendatasoft.com/api/explore/v2.1/catalog/datasets/consommation-quotidienne-brute/exports/csv...
+2025-04-26 16:08:11,787 - energy_consumption - INFO - Saving to temporary file: C:\Users\Hamdi\Desktop\ML PROJECT\temp\temp_csv.csv
+2025-04-26 16:10:11,539 - energy_consumption - INFO - Downloaded 20191.44 KB of data
+2025-04-26 16:10:11,540 - energy_consumption - INFO - Parsing downloaded CSV file...
+2025-04-26 16:10:13,507 - energy_consumption - ERROR - Error parsing CSV file: No date column found in the CSV file
+2025-04-26 16:10:13,508 - energy_consumption - ERROR - Error parsing downloaded CSV: Invalid file format: No date column found in the CSV file
+2025-04-26 16:10:13,508 - energy_consumption - INFO - The downloaded file is preserved at C:\Users\Hamdi\Desktop\ML PROJECT\temp\temp_csv.csv for debugging
+2025-04-26 16:10:13,509 - energy_consumption - ERROR - Error loading data from URL: Could not parse the downloaded CSV file: Invalid file format: No date column found in the CSV file

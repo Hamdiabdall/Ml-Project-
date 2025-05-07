@@ -1,0 +1,9 @@
+2025-04-26 15:55:09,413 - energy_consumption - INFO - Application starting
+2025-04-26 15:55:09,865 - energy_consumption - INFO - Entering event loop
+2025-04-26 15:55:49,816 - energy_consumption - INFO - Attempting to download data from ODRE platform
+2025-04-26 15:55:49,817 - energy_consumption - INFO - URL: https://odre.opendatasoft.com/explore/dataset/consommation-quotidienne-brute/download/?format=csv&timezone=Europe/Berlin&lang=fr&use_labels_for_header=true&csv_separator=%3B
+2025-04-26 15:55:49,817 - energy_consumption - INFO - Attempting to download data from: https://odre.opendatasoft.com/explore/dataset/consommation-quotidienne-brute/download/?format=csv&timezone=Europe/Berlin&lang=fr&use_labels_for_header=true&csv_separator=%3B
+2025-04-26 15:57:46,516 - energy_consumption - INFO - Filtered out 1464 rows with flag_ignore='oui'
+2025-04-26 15:57:46,560 - energy_consumption - INFO - Data loaded successfully from URL
+2025-04-26 15:57:46,561 - energy_consumption - INFO - Data successfully loaded from ODRE platform
+2025-04-26 15:57:46,568 - energy_consumption - INFO - Date range updated to match loaded data: 2011-12-31 to 2024-12-31

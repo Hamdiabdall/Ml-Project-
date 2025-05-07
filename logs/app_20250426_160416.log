@@ -1,0 +1,7 @@
+2025-04-26 16:04:16,953 - energy_consumption - INFO - Application starting
+2025-04-26 16:04:17,404 - energy_consumption - INFO - Entering event loop
+2025-04-26 16:04:32,380 - energy_consumption - INFO - Attempting to download data from: https://odre.opendatasoft.com/explore/dataset/consommation-quotidienne-brute
+2025-04-26 16:04:32,381 - energy_consumption - INFO - Converting OpenData exploration URL to direct download URL
+2025-04-26 16:04:32,381 - energy_consumption - INFO - Using direct download URL: https://odre.opendatasoft.com/api/explore/v2.1/catalog/datasets/consommation-quotidienne-brute/exports/csv
+2025-04-26 16:04:32,382 - energy_consumption - INFO - Downloading data from https://odre.opendatasoft.com/api/explore/v2.1/catalog/datasets/consommation-quotidienne-brute/exports/csv...
+2025-04-26 16:04:34,205 - energy_consumption - INFO - Saving to temporary file: C:\Users\Hamdi\Desktop\ML PROJECT\temp\temp_csv.csv

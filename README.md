@@ -233,8 +233,8 @@ Ce projet est distribué sous licence MIT. Voir le fichier `LICENSE` pour plus d
 ## 📧 Contact
 
 Pour toute question, suggestion ou rapport de bug, veuillez contacter :
-- Email : projet.energie@example.com
-- GitHub : github.com/votre-utilisateur/analyse-consommation-energetique
+- Email : hamdi.abdallah@polytechnicien.tn
+- GitHub : (https://github.com/Hamdiabdall/Ml-Project-.git)
 
 ### Remerciements
 
